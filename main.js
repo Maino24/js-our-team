@@ -1,3 +1,5 @@
+let output = document.getElementById(`output`);
+
 const team = [
     {
       name: 'Wayne Barnett',
@@ -31,7 +33,7 @@ const team = [
     },
   ];
 
-  //creo un ciclo for che legge l'array e stampa in concole le varie persone
+  //creo un ciclo for che legge l'array e stampa le varie persone
 
   for ( i = 0; i < team.length; i++){
 
@@ -41,7 +43,7 @@ const team = [
     console.log(persona.role)
     console.log(persona.image)
 
-    document.getElementById(`output`).innerText += `${persona.name}`
-    document.getElementById(`output`).innerText += `${persona.role}`
-    document.getElementById(`output`).innerText += `${persona.image}`
+    output.innerHTML += `<div class="stringa"> ${persona.name} </div>`    //`${persona.name} `  
+    output.innerHTML += `<div class="stringa"> ${persona.role} </div>` 
+    output.innerHTML += `<img src=./img/${persona.image} >`
   }
