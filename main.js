@@ -45,5 +45,6 @@ const team = [
 
     output.innerHTML += `<div class="stringa"> ${persona.name} </div>`    //`${persona.name} `  
     output.innerHTML += `<div class="stringa"> ${persona.role} </div>` 
+    //metto immagine
     output.innerHTML += `<img src=./img/${persona.image} >`
   }
