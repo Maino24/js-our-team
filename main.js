@@ -35,7 +35,13 @@ const team = [
 
   for ( i = 0; i < team.length; i++){
 
+    let persona = team[i]
     
-    console.log(team[i])
+    console.log(persona.name)
+    console.log(persona.role)
+    console.log(persona.image)
 
+    document.getElementById(`output`).innerText += `${persona.name}`
+    document.getElementById(`output`).innerText += `${persona.role}`
+    document.getElementById(`output`).innerText += `${persona.image}`
   }
