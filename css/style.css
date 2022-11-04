@@ -13,7 +13,7 @@ header{
 .containerCard{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 30%;
     flex-wrap: wrap;  
     align-items: center;
 }
