@@ -51,7 +51,7 @@ const team = [
 
     output.innerHTML +=
     `
-    <div class="card" style="width: 18rem;">
+    <div class="card cardImg">
      <img src=./img/${persona.image} class="card-img-top" alt="...">
         <div class="card-body">
             <h3 class="card-title">${persona.name}</h3>

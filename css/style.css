@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
-/* .stringa{
+header{
+    width: 70%;
+    margin  : auto;
+    text-align: center;
+}
+
+.containerCard{
     display: block;
-} */
+    margin: auto;
+    width: 50%;
+    flex-wrap: wrap;  
+    align-items: center;
+}
+
+
