@@ -43,8 +43,20 @@ const team = [
     console.log(persona.role)
     console.log(persona.image)
 
-    output.innerHTML += `<div class="stringa"> ${persona.name} </div>`    //`${persona.name} `  
-    output.innerHTML += `<div class="stringa"> ${persona.role} </div>` 
-    //metto immagine
-    output.innerHTML += `<img src=./img/${persona.image} >`
+    // output.innerHTML += `<div class="stringa"> ${persona.name} </div>`    //`${persona.name} `  
+    // output.innerHTML += `<div class="stringa"> ${persona.role} </div>` 
+    // //metto immagine
+    // output.innerHTML += `<img src=./img/${persona.image} >`
+
+
+    output.innerHTML +=
+    `
+    <div class="card" style="width: 18rem;">
+     <img src=./img/${persona.image} class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3 class="card-title">${persona.name}</h3>
+            <p class="card-text">${persona.role}</p>
+        </div>
+    </div>
+`
   }
