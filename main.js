@@ -30,3 +30,12 @@ const team = [
       image: 'barbara-ramos-graphic-designer.jpg',
     },
   ];
+
+  //creo un ciclo for che legge l'array e stampa in concole le varie persone
+
+  for ( i = 0; i < team.length; i++){
+
+    
+    console.log(team[i])
+
+  }
