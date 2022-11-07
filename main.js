@@ -33,6 +33,8 @@ const team = [
     },
   ];
 
+  
+
   //creo un ciclo for che legge l'array e stampa le varie persone
 
   for ( i = 0; i < team.length; i++){
@@ -47,9 +49,10 @@ const team = [
     // output.innerHTML += `<div class="stringa"> ${persona.role} </div>` 
     // //metto immagine
     // output.innerHTML += `<img src=./img/${persona.image} >`
-    let elementoCorrente = team[i]
+    
 
-    output.innerHTML +=
+    //output.innerHTML +=
+    document.getElementById(`card`).innerHTML +=
     `
     <div class="card cardImg">
      <img src=./img/${persona.image} class="card-img-top" alt="...">

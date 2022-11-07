@@ -5,7 +5,7 @@
 }
 
 header{
-    width: 70%;
+    width: 80%;
     margin  : auto;
     text-align: center;
 }
@@ -13,8 +13,8 @@ header{
 .containerCard{
     display: block;
     margin: auto;
-    width: 30%;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    width: 40%;  
     align-items: center;
 }
 
