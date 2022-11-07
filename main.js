@@ -47,7 +47,7 @@ const team = [
     // output.innerHTML += `<div class="stringa"> ${persona.role} </div>` 
     // //metto immagine
     // output.innerHTML += `<img src=./img/${persona.image} >`
-
+    let elementoCorrente = team[i]
 
     output.innerHTML +=
     `
